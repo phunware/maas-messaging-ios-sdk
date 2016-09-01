@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PWMessaging.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PWMessaging</TokenIdentifier>
+			<Abstract type="html">The Location Messaging framework is a location and notification based system.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/startWithEnvironment:maasAppId:accessKey:signatureKey:encryptionKey:completion:</TokenIdentifier>
+			<Abstract type="html">Starts the Location Messaging service with environment.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)startWithEnvironment:(PWEnvironment)environment maasAppId:(NSString *)maasAppId accessKey:(NSString *)accessKey signatureKey:(NSString *)signatureKey encryptionKey:(NSString *)encryptionKey completion:(void ( ^ ) ( NSError *error ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>environment</Name>
+					<Abstract type="html">The API environment.</Abstract>
+				</Parameter><Parameter>
+					<Name>maasAppId</Name>
+					<Abstract type="html">You can find your Application ID in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>accessKey</Name>
+					<Abstract type="html">A unique key that identifies the client making the request. You can find your Access Key in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>signatureKey</Name>
+					<Abstract type="html">A unique key that is used to sign requests. The signature is used to both check request authorization as well as data integrity. You can find your Signature Key in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>encryptionKey</Name>
+					<Abstract type="html">The key used to encrypt and decrypt data that is exchanged between the client and the server. You can find your Encryption Key in the MaaS portal.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block that notify location messaging service is successfully started or failed to start with reason.
+- param1 error It&apos;s nil when it&apos;s started successfully, or an error object containing information about a problem that indicates location messaging service failed to start.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A singleton class of LocationMessaging</Abstract></ReturnValue>
+			<Anchor>//api/name/startWithEnvironment:maasAppId:accessKey:signatureKey:encryptionKey:completion:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/stopWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Stop location messaging service.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)stopWithCompletion:(void ( ^ ) ( NSError *error ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block that notify location messaging service is successfully stopped or failed to stop with reason.
+
+- error It&apos;s nil when it&apos;s stopped successfully, or an error object containing information about a problem that indicates location messaging service failed to stop.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/stopWithCompletion:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/geozones</TokenIdentifier>
+			<Abstract type="html">All the available PWLPGeozone list.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)geozones</Declaration>
+			
+			
+			<Anchor>//api/name/geozones</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/messages</TokenIdentifier>
+			<Abstract type="html">All the available PWLPZoneMessage list.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/deviceId</TokenIdentifier>
+			<Abstract type="html">Return the device identifier which the location messaging service uses.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/version</TokenIdentifier>
+			<Abstract type="html">Return the current SDK version of location messaging.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/serviceName</TokenIdentifier>
+			<Abstract type="html">The name of the location messaging service.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)serviceName</Declaration>
+			
+			
+			<Anchor>//api/name/serviceName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/setErrorHandler:</TokenIdentifier>
+			<Abstract type="html">Set the block to handle the error when it occurs.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)setErrorHandler:(void ( ^ ) ( NSError *error ))handler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>handler</Name>
+					<Abstract type="html">A block that caused location messaging service failed.
+
+- error An error object containing information about a problem that indicates location messaging service failed if the results are retrieved successfully.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setErrorHandler:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/setLocalNotificationHandler:</TokenIdentifier>
+			<Abstract type="html">Set the block to handle the local notification which is about to display.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)setLocalNotificationHandler:(BOOL ( ^ ) ( PWMSGLocalNotification *notification ))handler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>handler</Name>
+					<Abstract type="html">A block that notifies the local notification is about to display, you can control the local notification display and customize the display content.
+
+- notification The PWLPLocalNotification object which contains notification information to display.
+- @return The local notification will be displayed if returns YES, otherwise, it will not be displayed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLocalNotificationHandler:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/didFinishLaunchingWithOptions:withCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Lets the location messaging service know that launch process is almost done and the app is almost ready to run.(APNs).</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)didFinishLaunchingWithOptions:(NSDictionary *)launchOptions withCompletionHandler:(BOOL ( ^ ) ( PWMSGLocalNotification *notification ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>launchOptions</Name>
+					<Abstract type="html">A dictionary indicating the reason the app was launched (if any). The contents of this dictionary may be empty in situations where the user launched the app directly. For information about the possible keys in this dictionary and how to handle them, see Launch Options Keys.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">A block that tells if user opens the app by tapping a notification.
+
+- notification The notification object if user open the app by tapping a notification from notification tray, otherwise, it&apos;s nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didFinishLaunchingWithOptions:withCompletionHandler:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/didRegisterForRemoteNotificationsWithDeviceToken:</TokenIdentifier>
+			<Abstract type="html">Lets the location messaging service know that the app successfully registered with Apple Push Notification service (APNs).</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deviceToken</Name>
+					<Abstract type="html">A token that identifies the device to APNs. The token is an opaque data type because that is the form that the provider needs to submit to the APNs servers when it sends a notification to a device. The APNs servers require a binary format for performance reasons. The size of a device token is 32 bytes. Note that the device token is different from the uniqueIdentifier property of UIDevice because, for security and privacy reasons, it must change when the device is wiped.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didRegisterForRemoteNotificationsWithDeviceToken:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/didFailToRegisterForRemoteNotificationsWithError:</TokenIdentifier>
+			<Abstract type="html">Lets the location messaging service know that the Apple Push Notification service cannot successfully complete the registration process.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)didFailToRegisterForRemoteNotificationsWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">An NSError object that encapsulates information why registration did not succeed. The app can choose to display this information to the user.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didFailToRegisterForRemoteNotificationsWithError:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/didReceiveLocalNotification:withNotificationHandler:</TokenIdentifier>
+			<Abstract type="html">Lets the location messaging service know that the app receives a local notification, so that it can process it internally.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)didReceiveLocalNotification:(UILocalNotification *)notification withNotificationHandler:(void ( ^ ) ( PWMSGLocalNotification *notification ))notificationHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">A UILocalNotification object.</Abstract>
+				</Parameter><Parameter>
+					<Name>notificationHandler</Name>
+					<Abstract type="html">A block that tells the notification with message which was received.
+
+- notification The notification object which was received.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveLocalNotification:withNotificationHandler:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/didReceiveRemoteNotification:withNotificationHandler:</TokenIdentifier>
+			<Abstract type="html">Lets the location messaging service know that the app receives a remote notification, so that it can process it internally.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)didReceiveRemoteNotification:(NSDictionary *)userInfo withNotificationHandler:(void ( ^ ) ( PWMSGLocalNotification *notification ))notificationHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>userInfo</Name>
+					<Abstract type="html">A dictionary that contains information related to the remote notification, potentially including a badge number for the app icon, an alert sound, an alert message to display to the user, a notification identifier, and custom data. The provider originates it as a JSON-defined dictionary that iOS converts to an NSDictionary object; the dictionary may contain only property-list objects plus NSNull.</Abstract>
+				</Parameter><Parameter>
+					<Name>notificationHandler</Name>
+					<Abstract type="html">A block that tells the notification with message which was received.
+
+- notification The notification object which was received.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveRemoteNotification:withNotificationHandler:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/didReceiveRemoteNotification:fetchCompletionHandler:withNotificationHandler:</TokenIdentifier>
+			<Abstract type="html">Lets the location messaging service know that the app receives a remote notification, so that it can process it internally.</Abstract>
+			<DeclaredIn>PWMessaging.h</DeclaredIn>
+			
+			<Declaration>+ (void)didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void ( ^ ) ( UIBackgroundFetchResult ))completionHandler withNotificationHandler:(void ( ^ ) ( PWMSGLocalNotification *notification ))notificationHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>userInfo</Name>
+					<Abstract type="html">A dictionary that contains information related to the remote notification, potentially including a badge number for the app icon, an alert sound, an alert message to display to the user, a notification identifier, and custom data. The provider originates it as a JSON-defined dictionary that iOS converts to an NSDictionary object; the dictionary may contain only property-list objects plus NSNull.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to execute when the download operation is complete. When calling this block, pass in the fetch result value that best describes the results of your download operation. You must call this handler and should do so as soon as possible. For a list of possible values, see the UIBackgroundFetchResult type.
+
+- userInfo A dictionary that contains information related to the remote notification, potentially including a badge number for the app icon, an alert sound, an alert message to display to the user, a notification identifier, and custom data. The provider originates it as a JSON-defined dictionary that iOS converts to an NSDictionary object; the dictionary may contain only property-list objects plus NSNull.</Abstract>
+				</Parameter><Parameter>
+					<Name>notificationHandler</Name>
+					<Abstract type="html">A block that tells the notification with message which was received.
+
+- notification: The notification object which was received.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveRemoteNotification:fetchCompletionHandler:withNotificationHandler:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

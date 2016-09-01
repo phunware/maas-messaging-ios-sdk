@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PWMSGAttributeManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PWMSGAttributeManager</TokenIdentifier>
+			<Abstract type="html">The PWAttributeManager class is the central point for fetching and updating attributes associated with the device or user. You use an instance of this class to fetch and update profile and user attributes.</Abstract>
+			<DeclaredIn>PWMSGAttributeManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMSGAttributeManager/sharedManager</TokenIdentifier>
+			<Abstract type="html">Returns the shared instance of the PWAttributeManager class.</Abstract>
+			<DeclaredIn>PWMSGAttributeManager.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)sharedManager</Declaration>
+			
+			<ReturnValue><Abstract type="html">The shared instance of the PWAttributeManager class.</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedManager</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGAttributeManager/fetchProfileAttributeMetadataWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Retrieves all profile attribute Metadata.</Abstract>
+			<DeclaredIn>PWMSGAttributeManager.h</DeclaredIn>
+			
+			<Declaration>- (void)fetchProfileAttributeMetadataWithCompletion:(PWFetchAttributeMetadataBlock)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block that will be executed when the fetch is complete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fetchProfileAttributeMetadataWithCompletion:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGAttributeManager/fetchProfileAttributesWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Retrieves all profile attributes associated with this device.</Abstract>
+			<DeclaredIn>PWMSGAttributeManager.h</DeclaredIn>
+			
+			<Declaration>- (void)fetchProfileAttributesWithCompletion:(PWFetchAttributesBlock)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block that will be executed after the fetch is compete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fetchProfileAttributesWithCompletion:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGAttributeManager/updateProfileAttributes:completion:</TokenIdentifier>
+			<Abstract type="html">Update profile attributes to be associated with the device.</Abstract>
+			<DeclaredIn>PWMSGAttributeManager.h</DeclaredIn>
+			
+			<Declaration>- (void)updateProfileAttributes:(NSDictionary *)attributes completion:(PWUpdateAttributesBlock)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>attributes</Name>
+					<Abstract type="html">The attributes that you would like to associate with the device. This parameter cannot be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block that will be executed after the update is complete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateProfileAttributes:completion:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

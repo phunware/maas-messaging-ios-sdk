@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PWMSGGeozone.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PWMSGGeozone</TokenIdentifier>
+			<Abstract type="html">A PWMSGGeozone object represents a circular region in a map with some associated data
+for that region.</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/setRegion:</TokenIdentifier>
+			<Abstract type="html">The circular region represented by the PWMSGGeozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CLCircularRegion *region</Declaration>
+			
+			
+			<Anchor>//api/name/region</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/region</TokenIdentifier>
+			<Abstract type="html">The circular region represented by the PWMSGGeozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CLCircularRegion *region</Declaration>
+			
+			
+			<Anchor>//api/name/region</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PWMSGGeozone/region</TokenIdentifier>
+			<Abstract type="html">The circular region represented by the PWMSGGeozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CLCircularRegion *region</Declaration>
+			
+			
+			<Anchor>//api/name/region</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">The geozone identifier. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/identifier</TokenIdentifier>
+			<Abstract type="html">The geozone identifier. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PWMSGGeozone/identifier</TokenIdentifier>
+			<Abstract type="html">The geozone identifier. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/setName:</TokenIdentifier>
+			<Abstract type="html">The name given to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/name</TokenIdentifier>
+			<Abstract type="html">The name given to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PWMSGGeozone/name</TokenIdentifier>
+			<Abstract type="html">The name given to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/setCode:</TokenIdentifier>
+			<Abstract type="html">The code assigned to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/code</TokenIdentifier>
+			<Abstract type="html">The code assigned to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PWMSGGeozone/code</TokenIdentifier>
+			<Abstract type="html">The code assigned to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/setZoneDescription:</TokenIdentifier>
+			<Abstract type="html">The description assigned to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *zoneDescription</Declaration>
+			
+			
+			<Anchor>//api/name/zoneDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/zoneDescription</TokenIdentifier>
+			<Abstract type="html">The description assigned to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *zoneDescription</Declaration>
+			
+			
+			<Anchor>//api/name/zoneDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PWMSGGeozone/zoneDescription</TokenIdentifier>
+			<Abstract type="html">The description assigned to the geozone object. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *zoneDescription</Declaration>
+			
+			
+			<Anchor>//api/name/zoneDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/setInside:</TokenIdentifier>
+			<Abstract type="html">A flag that indicates if the user is currently inside the geozone. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL inside</Declaration>
+			
+			
+			<Anchor>//api/name/inside</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/inside</TokenIdentifier>
+			<Abstract type="html">A flag that indicates if the user is currently inside the geozone. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL inside</Declaration>
+			
+			
+			<Anchor>//api/name/inside</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PWMSGGeozone/inside</TokenIdentifier>
+			<Abstract type="html">A flag that indicates if the user is currently inside the geozone. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL inside</Declaration>
+			
+			
+			<Anchor>//api/name/inside</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/setMonitored:</TokenIdentifier>
+			<Abstract type="html">A flag that indicates if the zone is monitored. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL monitored</Declaration>
+			
+			
+			<Anchor>//api/name/monitored</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/monitored</TokenIdentifier>
+			<Abstract type="html">A flag that indicates if the zone is monitored. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL monitored</Declaration>
+			
+			
+			<Anchor>//api/name/monitored</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PWMSGGeozone/monitored</TokenIdentifier>
+			<Abstract type="html">A flag that indicates if the zone is monitored. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL monitored</Declaration>
+			
+			
+			<Anchor>//api/name/monitored</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/setTags:</TokenIdentifier>
+			<Abstract type="html">A set of tags associated to the geozone. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSSet *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/tags</TokenIdentifier>
+			<Abstract type="html">A set of tags associated to the geozone. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSSet *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PWMSGGeozone/tags</TokenIdentifier>
+			<Abstract type="html">A set of tags associated to the geozone. (read-only)</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSSet *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PWMSGGeozone/init</TokenIdentifier>
+			<Abstract type="html">Unavailable initializer.
+@return</Abstract>
+			<DeclaredIn>PWMSGGeozone.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
