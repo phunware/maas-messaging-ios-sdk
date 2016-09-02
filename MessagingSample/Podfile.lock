@@ -1,0 +1,18 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - PWCore (3.0.0)
+  - PWMessaging (3.0.0):
+    - PWCore (~> 3.0.0)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - PWMessaging
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PWCore: 483fa565e3ce61a3c67944fec87c73dd9cb0fdc5
+  PWMessaging: d0e4b1e6042e7b03156009c4a297b52f7cb90602
+
+PODFILE CHECKSUM: 89c2814451061eb486cc1485069fd72fbc503c09
+
+COCOAPODS: 1.0.1
