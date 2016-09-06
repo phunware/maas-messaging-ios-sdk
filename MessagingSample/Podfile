@@ -1,5 +1,4 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://bitbucket.phunware.com/scm/misc/cocoapods-sdk-ios.git'
 
 platform :ios, '8.0'
 xcodeproj 'MessagingSample.xcodeproj'

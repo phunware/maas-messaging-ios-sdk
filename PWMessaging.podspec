@@ -10,8 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/phunware/maas-messaging-ios-sdk.git", :tag => 'v3.0.0' }
   s.license      = { :type => 'Copyright', :text => 'Copyright 2016 by Phunware Inc. All rights reserved.' }
 
-https://github.com/phunware/maas-messaging-ios-sdk.git
-
 
   s.ios.vendored_frameworks = 'Framework/PWMessaging.framework'
   s.xcconfig      = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/PWMessaging/**"'}
