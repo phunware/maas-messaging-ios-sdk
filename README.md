@@ -7,16 +7,14 @@ This is Phunware's iOS SDK for Messaging, a location- and notification-based sys
 
 Documentation
 ------------
-- how-tos: https://github.com/phunware/maas-messaging-ios-sdk/wiki
-- API reference: http://phunware.github.io/maas-messaging-ios-sdk/
-
+- API reference: [Maas Messaging API Reference.] (http://phunware.github.io/maas-messaging-ios-sdk/)
+- Documentation can be found at [developer.phunware.com.] (https://developer.phunware.com/pages/viewpage.action?pageId=3409272)
 
 Requirements
 ------------
 
 - iOS 8.0 or greater
 - Xcode 6 or greater
-
 
 Installation
 ------------
@@ -49,7 +47,6 @@ Documentation
 Messaging documentation is included in the the repository's Documents folder as both HTML and as a .docset. You can also find the latest documentation here: http://phunware.github.io/maas-messaging-ios-sdk/
 
 
-
 Integration
 -----------
 
@@ -59,7 +56,7 @@ Messaging SDK is always running in background. There are no UI elements included
 
 ````objective-c
 // Include the Messaging header file
-#import #import <PWMessaging/PWMessaging.h>
+#import <PWMessaging/PWMessaging.h>
 
 
 // Start Messaging service
@@ -72,26 +69,33 @@ Messaging SDK is always running in background. There are no UI elements included
 							   
 }];
 
-// That's it!
 ````
 ### Did Register for remote notification
+
+````
 [PWMessaging didRegisterForRemoteNotificationsWithDeviceToken:<#deviceToken#>];
 
+````
 
 ### Receive remote notifications
-
+````
 [PWMessaging didReceiveRemoteNotification:<#userInfo#>
                   withNotificationHandler:^(PWMSGLocalNotification *notification) {
 
  }];
-
+````
 ### Receive local notifications
+
+````
 [PWMessaging didReceiveLocalNotification:<#notification#>  
 					 withNotificationHandler:^(PWMSGLocalNotification *notification) {
     
 }];
+````
 
 ### Stop Messaging Service
+````
+
 [PWMessaging stopWithCompletion:^(NSError *error) {
 		
 }];
