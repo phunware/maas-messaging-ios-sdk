@@ -23,8 +23,8 @@ Framework documentation is included in the the repository's Documents folder in 
 Attribution
 ------------
 
-PWMessaging uses the following third-party components. All components are prefixed with `PW` to avoid namespace collisions should your application also use an included component.
+PWMessaging uses the following third-party components. 
 
 | Component | Description | License |
 |:---------:|:-----------:|:-------:|
-|[FMDB](https://github.com/ccgus/fmdb/)|This is an Objective-C wrapper around SQLite: http://sqlite.org/.|[MIT](https://github.com/samvermette/SVPulsingAnnotationView/blob/master/LICENSE.txt)|
+|[FMDB](https://github.com/ccgus/fmdb/)|This is an Objective-C wrapper around SQLite: http://sqlite.org/.|[MIT](https://github.com/ccgus/fmdb/blob/master/LICENSE.txt)|
