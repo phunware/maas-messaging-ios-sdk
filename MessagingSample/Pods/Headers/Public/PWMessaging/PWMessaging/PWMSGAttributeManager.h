@@ -1,1 +1,0 @@
-../../../../PWMessaging/PWMessaging/PWMessaging.framework/Versions/A/Headers/PWMSGAttributeManager.h
