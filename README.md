@@ -19,6 +19,30 @@ Framework documentation is included in the the repository's Documents folder in 
 
 - API reference: [Maas Messaging API Reference.] (http://phunware.github.io/maas-messaging-ios-sdk/)
 - Documentation can be found at [developer.phunware.com.] (https://developer.phunware.com/pages/viewpage.action?pageId=3409272)
+
+Steps to run the sample app
+------------
+1. Create a new iOS Messaging application in MaaS portal.
+
+2. Go to the directory of sample app and do a `pod install`.
+
+3. Add the following key/value pairs to Info.plist file:
+
+ * MaaSAppId : The application ID from MaaS Portal.
+ * MaaSAccessKey : The accesskey from MaaS Portal.
+ * MaaSSignatureKey : The signature key from MaaS Portal.
+
+4. Configure your app for push notifications.
+   * Go to [developer.apple.com] (http://developer.apple.com) and  create a push notification certificate.([Push notification tutorial](https://www.raywenderlich.com/123862/push-notifications-tutorial))
+   
+   * Once it's created, download the push production certificate and add it to Keychain Access. Then, from Keychain Access, export both the certificate and key. (Right click to view the Export option) as a  .p12 and set a password.
+   
+   * Now, log on to the Maas Portal, navigate to the app created for your application and update the following.
+     * Certificate (.p12): Click the grey ellipses button to upload the Production Push Certificate you created on developer.apple.com. 
+     * Password: The password you setup for the push certificate. 
+     * Environment: Use Production environment for production apps.  
+   
+
  
 Attribution
 ------------
