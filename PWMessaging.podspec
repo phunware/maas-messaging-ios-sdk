@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "PWMessaging"
-  s.version      = "3.0.0"
+  s.version      = "3.0.2"
   s.summary      = "Phunware Messaging SDK"
   s.homepage     = "http://phunware.github.io/maas-messaging-ios-sdk/"
   s.author       = { 'Phunware, Inc.' => 'http://www.phunware.com' }
   s.social_media_url = 'https://twitter.com/Phunware'
 
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/phunware/maas-messaging-ios-sdk.git", :tag => 'v3.0.0' }
+  s.source       = { :git => "https://github.com/phunware/maas-messaging-ios-sdk.git", :tag => 'v3.0.2' }
   s.license      = { :type => 'Copyright', :text => 'Copyright 2016 by Phunware Inc. All rights reserved.' }
 
 

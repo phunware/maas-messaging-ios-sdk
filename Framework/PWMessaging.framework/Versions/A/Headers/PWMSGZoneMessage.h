@@ -20,6 +20,11 @@ static NSString *const PWLPZoneMessageGeofenceExitCampaignType    = @"GEOFENCE_E
  * Campaign type string value for broadcast campaigns.
  */
 static NSString *const PWLPZoneMessageBroadCastCampaignType         = @"BROADCAST";
+/**
+ * Campaign type string value for on-demond broadcast campaigns.
+ */
+static NSString *const PWLPZoneMessageOnDemandBroadCastCampaignType = @"ON_DEMAND_BROADCAST";
+
 
 
 /**
