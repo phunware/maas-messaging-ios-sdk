@@ -121,6 +121,7 @@
 		8BDBDB621D77A086001FF35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDBDB6A1D77A200001FF35B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BDBDB6B1D77A200001FF35B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BE543FC1DF88BD8007BB4CB /* MessagingSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessagingSample.entitlements; sourceTree = "<group>"; };
 		9179EDB996D7D69B1C53F4F7 /* Pods-MessagingSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessagingSample/Pods-MessagingSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -293,6 +294,7 @@
 		8BDBDB501D77A086001FF35B /* MessagingSample */ = {
 			isa = PBXGroup;
 			children = (
+				8BE543FC1DF88BD8007BB4CB /* MessagingSample.entitlements */,
 				8BDBDB6A1D77A200001FF35B /* AppDelegate.h */,
 				8BDBDB6B1D77A200001FF35B /* AppDelegate.m */,
 				8B8678261D77D8BE00A1629D /* AppInfo */,
@@ -365,6 +367,9 @@
 						CreatedOnToolsVersion = 7.3;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -603,6 +608,8 @@
 			baseConfigurationReference = 8AB086DE6168B69639ECC40F /* Pods-MessagingSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MessagingSample/MessagingSample.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MessagingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.MessagingSample;
@@ -616,6 +623,8 @@
 			baseConfigurationReference = 9179EDB996D7D69B1C53F4F7 /* Pods-MessagingSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MessagingSample/MessagingSample.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MessagingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.MessagingSample;

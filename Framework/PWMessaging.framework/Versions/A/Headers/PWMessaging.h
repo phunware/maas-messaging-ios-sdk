@@ -9,7 +9,6 @@
 @import UIKit;
 @import Foundation;
 
-//#import <PWMessaging/PWLPZoneProtocol.h>
 #import <PWMessaging/PWMSGGeozone.h>
 #import <PWMessaging/PWMSGZoneMessage.h>
 #import <PWMessaging/PWMSGLocalNotification.h>
@@ -91,16 +90,6 @@ extern NSString *const PWLMLocationServiceReadyNotificationKey;
 extern NSString *const PWLMMonitoredGeoZoneChangesNotificationKey;
 
 /**
- * Location Messaging API environment
- */
-typedef enum : NSUInteger {
-    PRODUCTION,
-    SANDBOX,
-    STAGE,
-    DEV
-} PWEnvironment;
-
-/**
  * The Location Messaging framework is a location and notification based system.
  *
  * The recommended way to start Location Messaging in your application is to place a call
@@ -122,7 +111,6 @@ typedef enum : NSUInteger {
 
 /**
  * Starts the Location Messaging service with environment.
- * @param environment The API environment.
  * @param maasAppId You can find your Application ID in the MaaS portal.
  * @param accessKey A unique key that identifies the client making the request. You can find your Access Key in the MaaS portal.
  * @param signatureKey A unique key that is used to sign requests. The signature is used to both check request authorization as well as data integrity. You can find your Signature Key in the MaaS portal.
@@ -131,8 +119,7 @@ typedef enum : NSUInteger {
  *      - *param1* error It's nil when it's started successfully, or an error object containing information about a problem that indicates location messaging service failed to start.
  * @return A singleton class of `LocationMessaging`
  */
-+ (void)startWithEnvironment:(PWEnvironment)environment
-				   maasAppId:(NSString *)maasAppId
++ (void)startWithMaasAppId:(NSString *)maasAppId
 				   accessKey:(NSString *)accessKey
 				signatureKey:(NSString *)signatureKey
 			   encryptionKey:(NSString *)encryptionKey

@@ -38,8 +38,7 @@
 	NSString *signatureKey = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"MaaSSignatureKey"]	;
 	
 	
-	[PWMessaging startWithEnvironment:PRODUCTION
-							maasAppId:appID
+	[PWMessaging startWithMaasAppId:appID
 							accessKey:accessKey
 						 signatureKey:signatureKey
 						encryptionKey:nil

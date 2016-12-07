@@ -13,16 +13,13 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/startWithEnvironment:maasAppId:accessKey:signatureKey:encryptionKey:completion:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/PWMessaging/startWithMaasAppId:accessKey:signatureKey:encryptionKey:completion:</TokenIdentifier>
 			<Abstract type="html">Starts the Location Messaging service with environment.</Abstract>
 			<DeclaredIn>PWMessaging.h</DeclaredIn>
 			
-			<Declaration>+ (void)startWithEnvironment:(PWEnvironment)environment maasAppId:(NSString *)maasAppId accessKey:(NSString *)accessKey signatureKey:(NSString *)signatureKey encryptionKey:(NSString *)encryptionKey completion:(void ( ^ ) ( NSError *error ))completion</Declaration>
+			<Declaration>+ (void)startWithMaasAppId:(NSString *)maasAppId accessKey:(NSString *)accessKey signatureKey:(NSString *)signatureKey encryptionKey:(NSString *)encryptionKey completion:(void ( ^ ) ( NSError *error ))completion</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>environment</Name>
-					<Abstract type="html">The API environment.</Abstract>
-				</Parameter><Parameter>
 					<Name>maasAppId</Name>
 					<Abstract type="html">You can find your Application ID in the MaaS portal.</Abstract>
 				</Parameter><Parameter>
@@ -41,7 +38,7 @@
 				</Parameter>
 			</Parameters>
 			<ReturnValue><Abstract type="html">A singleton class of LocationMessaging</Abstract></ReturnValue>
-			<Anchor>//api/name/startWithEnvironment:maasAppId:accessKey:signatureKey:encryptionKey:completion:</Anchor>
+			<Anchor>//api/name/startWithMaasAppId:accessKey:signatureKey:encryptionKey:completion:</Anchor>
             <NodeRef refid="5"/>
 		</Token>
 		
