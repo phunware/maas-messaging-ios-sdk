@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		4502AEAE3AB3A5580BAEBDDF /* libPods-MessagingSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7A4D485B2EEE113861D611 /* libPods-MessagingSample.a */; };
 		8B182CBA1D77DF0C007ADF77 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B182CB91D77DF0C007ADF77 /* MapKit.framework */; };
-		8B4A31B21D77EB12009352BC /* Jacksonville.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A31B01D77EB12009352BC /* Jacksonville.gpx */; };
-		8B4A31B31D77EB12009352BC /* Phunware.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A31B11D77EB12009352BC /* Phunware.gpx */; };
 		8B86780F1D77D84300A1629D /* AttributeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8678061D77D84300A1629D /* AttributeTableViewCell.m */; };
 		8B8678101D77D84300A1629D /* ProfileAttributeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8678081D77D84300A1629D /* ProfileAttributeTableViewController.m */; };
 		8B8678111D77D84300A1629D /* ProfileAttributeValuesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86780A1D77D84300A1629D /* ProfileAttributeValuesTableViewController.m */; };
@@ -401,13 +399,11 @@
 			files = (
 				8B8678141D77D84300A1629D /* AttributeTableViewTextFieldCell.xib in Resources */,
 				8B8678131D77D84300A1629D /* AttributeTableViewSegmentCell.xib in Resources */,
-				8B4A31B21D77EB12009352BC /* Jacksonville.gpx in Resources */,
 				8BDBDB611D77A086001FF35B /* LaunchScreen.storyboard in Resources */,
 				8B8678431D77D91800A1629D /* ToggleTableViewCell.xib in Resources */,
 				8BDBDB5E1D77A086001FF35B /* Assets.xcassets in Resources */,
 				8BDBDB5C1D77A086001FF35B /* Main.storyboard in Resources */,
 				8B86786E1D77D95800A1629D /* MapViewLegendCell.xib in Resources */,
-				8B4A31B31D77EB12009352BC /* Phunware.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
