@@ -41,7 +41,7 @@
 	[PWMessaging startWithMaasAppId:appID
 							accessKey:accessKey
 						 signatureKey:signatureKey
-						encryptionKey:nil
+						encryptionKey:@""
 						   completion:^(NSError *error) {
 							   
 						   }];
