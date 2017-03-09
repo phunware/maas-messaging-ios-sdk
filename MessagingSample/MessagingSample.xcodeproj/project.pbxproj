@@ -45,6 +45,7 @@
 		8BDBDB5E1D77A086001FF35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBDB5D1D77A086001FF35B /* Assets.xcassets */; };
 		8BDBDB611D77A086001FF35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDBDB5F1D77A086001FF35B /* LaunchScreen.storyboard */; };
 		8BDBDB771D77A200001FF35B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDBDB6B1D77A200001FF35B /* AppDelegate.m */; };
+		FBE7EFC01E71E81700B98BE2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBE7EFBF1E71E81700B98BE2 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +122,7 @@
 		8BDBDB6B1D77A200001FF35B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8BE543FC1DF88BD8007BB4CB /* MessagingSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessagingSample.entitlements; sourceTree = "<group>"; };
 		9179EDB996D7D69B1C53F4F7 /* Pods-MessagingSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessagingSample/Pods-MessagingSample.release.xcconfig"; sourceTree = "<group>"; };
+		FBE7EFBF1E71E81700B98BE2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				8BDBDB521D77A086001FF35B /* main.m */,
+				FBE7EFBF1E71E81700B98BE2 /* Settings.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE7EFC01E71E81700B98BE2 /* Settings.bundle in Resources */,
 				8B8678141D77D84300A1629D /* AttributeTableViewTextFieldCell.xib in Resources */,
 				8B8678131D77D84300A1629D /* AttributeTableViewSegmentCell.xib in Resources */,
 				8BDBDB611D77A086001FF35B /* LaunchScreen.storyboard in Resources */,
@@ -437,7 +441,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E1A569BE745EE249F628BCA8 /* [CP] Copy Pods Resources */ = {
