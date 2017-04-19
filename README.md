@@ -1,7 +1,7 @@
 Messaging SDK for iOS
 ==================
 
-Version 3.0.2
+Version 3.0.3
 
 Overview
 ------------
@@ -10,8 +10,8 @@ This is Phunware's iOS SDK for Messaging, a location and notification-based syst
 Requirements
 ------------
 
-- iOS 8.0 or greater
-- Xcode 6 or greater
+- iOS 9.0 or greater
+- Xcode 8 or greater
 
 Documentation
 ------------

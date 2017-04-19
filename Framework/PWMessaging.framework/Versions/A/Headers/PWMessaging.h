@@ -140,7 +140,7 @@ extern NSString *const PWLMMonitoredGeoZoneChangesNotificationKey;
 + (NSArray *)geozones;
 
 /**
- * All the available `PWLPZoneMessage` list.
+ * All the available `PWMSGZoneMessage` list.
  */
 + (NSArray *)messages;
 
@@ -232,5 +232,13 @@ extern NSString *const PWLMMonitoredGeoZoneChangesNotificationKey;
  *      - *notification*: The notification object which was received.
  */
 + (void)didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler  withNotificationHandler:(void(^)(PWMSGLocalNotification *notification))notificationHandler;
+
+/**
+ * Set the static identifier to be registered with the current device.
+ * @discussion This registers the selected static identifier with the device identifier.
+ * @param staticIdentifier The identifier that will be associated with the current device identifier.
+ * @param completion The block that notifies the user when static identifier registration is complete, and whether or not there was an error on the registration request.
+ */
++ (void)setStaticIdentifier:(NSString *)staticIdentifier completion:(void(^)(NSError *error))completion;
 
 @end
