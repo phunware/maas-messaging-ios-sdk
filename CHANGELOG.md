@@ -1,5 +1,10 @@
 Messaging iOS SDK - Change Logs
 ==========
+Version 3.0.4 *(07/11/2017)*
+----------------------------
+* Fixed issue with title for broadcast campaigns.
+
+
 Version 3.0.3 *(04/19/2017)*
 ----------------------------
 * Support for rewarded visits with PWAds.
